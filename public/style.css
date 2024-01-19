@@ -1,0 +1,42 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #006956;
+    background-image: url("https://www.transparenttextures.com/patterns/paper-2.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: black !important;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+footer {
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.form {
+    margin: 8px auto;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 500px; 
+}
+
+.custom-border {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
